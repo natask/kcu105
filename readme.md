@@ -1,5 +1,6 @@
 # Generating bitstreams for KCU
 # Led project
+```
 .
 ├── led
 │   ├── build.tcl
@@ -28,6 +29,7 @@
     ├── KCU105_Rev1.0_02292016.xdc
     ├── kcu105-xdc-rdf0349.zip
     └── xdc_notice.txt
+```
 
 led houses the led project in lab-bc format. The build.tcl file in this directory should serve as a basis for future lab-bc (or vivado command line: vivado -mode batch -source build.tcl -log log) bitstream generation.
 led-gui is generated using vivado 2024.1.
